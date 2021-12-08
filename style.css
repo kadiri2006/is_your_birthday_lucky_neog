@@ -1,0 +1,33 @@
+body {
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+p {
+  font-weight: 500;
+  font-size: 3rem;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  justify-content: space-evenly;
+  align-items: center;
+  outline: brown solid 1px;
+}
+
+#btn_checkNumber {
+  padding: 5px;
+  border-radius: 15px;
+  border-color: whitesmoke;
+  font-weight: bolder;
+}
+
+#display_block {
+  color: blue;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
